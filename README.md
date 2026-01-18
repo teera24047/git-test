@@ -78,12 +78,12 @@ git push -u origin main             # ดึงขึ้น GitHub ครั้�
 ### 6. สร้างและสลับ Branch
 ```bash
 # สร้าง branch ใหม่จากจุดที่เรายืนอยู่
-git checkout -b boom/feat/add-content
+git checkout -b bon/feat/add-content
 
 # ... แก้ไขไฟล์ ...
 git add .
 git commit -m "feat: add workshop content"
-git push origin boom/feat/add-content  # ส่งงานขึ้นไปให้เพื่อนดู
+git push origin bon/feat/add-content   # ส่งงานขึ้นไปให้เพื่อนดู
 ```
 
 ### 7. การรวมงาน (Merge)
@@ -91,7 +91,7 @@ git push origin boom/feat/add-content  # ส่งงานขึ้นไปใ
 ```bash
 git checkout main                   # ย้ายกลับมาที่ main
 git pull origin main                # ดึงงานใหม่ล่าสุดลงมาก่อน (กันพลาด)
-git merge boom/feat/add-content     # รวมร่าง!
+git bon/feat/add-content      # รวมร่าง!
 git push origin main                # ส่งงานที่รวมแล้วขึ้น GitHub
 ```
 
